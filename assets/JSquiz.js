@@ -47,9 +47,8 @@ let count = 0
 let questionTime = questions.length * 15 // 10s
 const gaugeWidth = 150 // 150px
 const gaugeUnit = gaugeWidth / questionTime
-let TIMER
+let timer = "timer"
 let score = 0
-timer = "timer"
 var scores = []
 
 if (localStorage.getItem("score")) {
@@ -159,4 +158,11 @@ function scoreRender() {
   scores.push(scorePerCent)
   console.log(scores)
   localStorage.setItem("score", JSON.stringify(scores))
+}
+
+//create and append listed items from user for high scores
+const liMaker = function() {
+  const li = document.createElement("li")
+  li.textContent = text
+  ul.appendChild(li)
 }
