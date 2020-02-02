@@ -15,7 +15,7 @@ const scoreDiv = document.getElementById("scoreContainer")
 let questions = [
   {
     question: "Who invented JavaScript?",
-    imgSrc: "assets/images/marcpic.jpg",
+    imgSrc: "assets/Images/marcpic.jpg",
     choiceA: "Marc Andreessen",
     choiceB: "Bill Clinton",
     choiceC: "Ryan Gosling",
@@ -23,7 +23,7 @@ let questions = [
   },
   {
     question: "What is the DOM?",
-    imgSrc: "assets/images/DOM.png",
+    imgSrc: "assets/Images/DOM.png",
     choiceA: "The Browser Interface",
     choiceB: "Document Object Model",
     choiceC: "The Searchbar",
@@ -31,7 +31,7 @@ let questions = [
   },
   {
     question: "What does JS stand for?",
-    imgSrc: "assets/images/jsimage.jpeg",
+    imgSrc: "assets/Images/jsimage.jpeg",
     choiceA: "Just Saying",
     choiceB: "Jam Session",
     choiceC: "JavaScript",
